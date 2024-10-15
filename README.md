@@ -1,7 +1,6 @@
 # DEMO WEBSITE
 
+## [Click here to see demo](https://drive.google.com/file/d/1t6WUJIOr24g1aIMD01vFxU1NwUpBDbPO/view?usp=sharing)
 
-
-https://github.com/user-attachments/assets/83c41d8a-88df-4861-9315-4bf3d5863131
 
 
