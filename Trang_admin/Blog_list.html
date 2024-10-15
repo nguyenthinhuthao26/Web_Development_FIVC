@@ -1,0 +1,310 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FiC | Blog</title>
+        <link type="text/css" href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link type="text/css" href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+        <link type="text/css" href="css/theme.css" rel="stylesheet">
+        <link type="text/css" href="images/icons/css/font-awesome.css" rel="stylesheet">
+        <link type="text/css" href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600'
+            rel='stylesheet'>
+    </head>
+    <body>
+        <div class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-inverse-collapse">
+                        <i class="icon-reorder shaded"></i></a><a class="brand" href="Tongquan.html"> <img src="images/LOGO FIC.png" alt="Logo" style="width: 27px; height: auto; margin-right: 5px;"> FiC </a>
+                        <ul class="nav pull-right">
+                            <li></li>
+                            <li></li>
+                            <li class="nav-user dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <img src="images/nekochan_avatar.JPG" class="nav-avatar" />
+                                <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Thông tin cá nhân</a></li>
+                                    <li><a href="doimatkhau.html">Đổi mật khẩu</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Đăng xuất</a></li>
+                                </ul>
+                            </li>
+                        </div>
+                    </div>
+                    <!-- /.nav-collapse -->
+                </div>
+            </div>
+            <!-- /navbar-inner -->
+        </div>
+        <!-- /navbar -->
+        <div class="wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="span3">
+                        <div class="sidebar">
+                            <ul class="widget widget-menu unstyled">
+                                <li class="active"><a href="Tongquan.html"><i class="menu-icon icon-dashboard"></i>Tổng quan</a></li>
+                                <li><a href="danhsachkhachhang.html"><i class="menu-icon icon-user"></i>Khách hàng</a></li>
+                                <li><a href="danhsachdonhang.html"><i class="menu-icon icon-shopping-cart"></i>Đơn hàng<b class="label green pull-right">11</b></a></li>
+                                <li><a href="Danhsachsanpham.html"><i class="menu-icon icon-tags"></i>Sản phẩm<b class="label orange pull-right">19</b> </a></li>
+                                <li><a href="Promotion_list.html"><i class="menu-icon icon-gift"></i>Khuyến mãi</a></li>
+                                <li><a href="Blog_list.html"><i class="menu-icon icon-book"></i>Blog</a></li>
+                            </ul>
+                            <!--/.widget-nav-->
+                            <ul class="widget widget-menu unstyled">
+                                <li><a class="collapsed" data-toggle="collapse" href="#togglePages"><i class="menu-icon icon-cog">
+                                </i><i class="icon-chevron-down pull-right"></i><i class="icon-chevron-up pull-right">
+                                </i>Cài đặt</a>
+                                    <ul id="togglePages" class="collapse unstyled">
+                                        <li><a href="Cauhinhchung.html"><i class="icon-home"></i>    Cấu hình chung</a></li>
+                                        <li><a href="nhanvien.html"><i class="icon-group"></i>    Nhân viên</a></li>
+                                        <li><a href="Vanchuyen.html"><i class="icon-truck"></i>    Vận chuyển</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#"><i class="menu-icon icon-globe"></i>Brower Website</a></li>
+                            </ul>
+                        </div>
+                        <!--/.sidebar-->
+				</div>
+
+				<div class="span9">
+					<div class="content">
+						
+						<div class="module">
+							
+							<div class="module-option clearfix">
+								<div class="pull-left">
+									<div>
+										<h2>Danh sách bài viết</h2>
+									</div>
+								</div>
+								<div class="pull-right">
+									<a href="Create_blog.html" class="btn btn-primary">+ Tạo bài viết</a>
+								</div>
+							</div><br>
+
+							<section class="section-wrap pt-0">
+								<div class="container-fluid">
+							
+							
+								<!-- Tab Content -->
+								<div class="tab-content tabs-slider-content">
+									<div class="owl-carousel owl-theme">
+							
+										<div class="module-body table tab-content">
+		
+											<table cellpadding="0" cellspacing="0" border="0" class="datatable-1 table table-bordered table-striped	 display" id="myTable1" width="100%">
+												<thead>
+													<tr>
+														<th>Tiêu đề</th>
+														<th>Người viết</th>
+														<th>Ngày tạo</th>
+														<th>Tổng thao tác</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr class="hove" data-id="1">
+														<td>CÓ THỂ BẠN CHƯA BIẾT VỀ LOCAL BRAND</td>
+														<td>Nguyễn Chi</td>
+														<td class="center">21/08/2023</td>
+														<td class="center">
+															<a href="blog_single1_1.html">
+																<img style="height:22px; cursor:pointer;" src="images/sua.png" alt="Edit Image">
+															</a>
+															&nbsp;&nbsp;&nbsp;
+															<img style="height:20px; cursor:pointer;" src="images/bin.png" onclick="deleteRow(this)" alt="Delete Image">
+														</td>
+														<script>
+															function deleteRow(element) {
+																// Truy cập đến thẻ tr và xóa nó
+																var row = element.closest('tr');
+																row.remove();
+															}
+														</script>
+													</tr>
+													<tr class="hove" data-id="1">
+														<td>ĐIỂM DANH 5+ THƯƠNG HIỆU LOCAL BRAND VIỆT NAM NỔI TIẾNG</td>
+														<td>Lai Trân</td>
+														<td class="center">14/12/2023</td>
+														<td class="center">
+															<a href="blog_single1_2.html">
+																<img style="height:22px; cursor:pointer;" src="images/sua.png" alt="Edit Image">
+															</a>
+															&nbsp;&nbsp;&nbsp;
+															<img style="height:20px; cursor:pointer;" src="images/bin.png" onclick="deleteRow(this)" alt="Delete Image">
+														</td>
+													</tr>
+													<tr class="hove" data-id="1">
+														<td>NHỮNG SẢN PHẨM MỚI ĐÁNG THỬ CỦA FIC</td>
+														<td>Hoàng Thanh Giang</td>
+														<td class="center">14/12/2023</td>
+														<td class="center">
+															<a href=blog_single1_3.html">
+																<img style="height:22px; cursor:pointer;" src="images/sua.png" alt="Edit Image">
+															</a>
+															&nbsp;&nbsp;&nbsp;
+															<img style="height:20px; cursor:pointer;" src="images/bin.png" onclick="deleteRow(this)" alt="Delete Image">
+														</td>
+													</tr>
+													<tr class="hove" data-id="1">
+														<td>LÝ DO VÌ SAO CÁC BẠN TRẺ LUÔN LỰA CHỌN LOCAL BRAND?</td>
+														<td>Nguyễn Thảo</td>
+														<td class="center">11/08/2023</td>
+														<td class="center">
+															<a href="blog_single1_4.html">
+																<img style="height:22px; cursor:pointer;" src="images/sua.png" alt="Edit Image">
+															</a>
+															&nbsp;&nbsp;&nbsp;
+															<img style="height:20px; cursor:pointer;" src="images/bin.png" onclick="deleteRow(this)" alt="Delete Image">
+														</td>
+													</tr>
+													<tr class="hove" data-id="1">
+														<td>NHỮNG ĐIỀU CẦN LƯU Ý KHI KINH DOANH LOCAL BRAND</td>
+														<td>Nguyễn Hân</td>
+														<td class="center">14/12/2023</td>
+														<td class="center">
+															<a href="blog_single1_5.html">
+																<img style="height:22px; cursor:pointer;" src="images/sua.png" alt="Edit Image">
+															</a>
+															&nbsp;&nbsp;&nbsp;
+															<img style="height:20px; cursor:pointer;" src="images/bin.png" onclick="deleteRow(this)" alt="Delete Image">
+														</td>
+													</tr>
+													<tr class="hove" data-id="1">
+														<td>NHỮNG THỨ MÌNH THÍCH, TẠI SAO PHẢI HỎI NGƯỜI KHÁC CÓ ĐẸP KHÔNG?</td>
+														<td>Nguyễn Chi</td>
+														<td class="center">11/08/2023</td>
+														<td class="center">
+															<a href="blog_single1_6.html">
+																<img style="height:22px; cursor:pointer;" src="images/sua.png" alt="Edit Image">
+															</a>
+															&nbsp;&nbsp;&nbsp;
+															<img style="height:20px; cursor:pointer;" src="images/bin.png" onclick="deleteRow(this)" alt="Delete Image">
+														</td>
+													</tr>
+													<tr class="hove" data-id="1">
+														<td>5 QUY TẮC VÀNG TRONG VIỆC PHỐI QUẦN ÁO</td>
+														<td>Lai Trân</td>
+														<td class="center">14/12/2023</td>
+														<td class="center">
+															<a href="blog_single1_7.html">
+																<img style="height:22px; cursor:pointer;" src="images/sua.png" alt="Edit Image">
+															</a>
+															&nbsp;&nbsp;&nbsp;
+															<img style="height:20px; cursor:pointer;" src="images/bin.png" onclick="deleteRow(this)" alt="Delete Image">
+														</td>
+													</tr>
+													<tr class="hove" data-id="1">
+														<td>CHINH PHỤC PHONG CÁCH NAM TÍNH VỚI ÁO POLO: BÍ QUYẾT PHỐI ĐỒ ĐẸP VÀ HIỆU QUẢ</td>
+														<td>Nguyễn Chi</td>
+														<td class="center">14/12/2023</td>
+														<td class="center">
+															<a href="blog_single2_1.html">
+																<img style="height:22px; cursor:pointer;" src="images/sua.png" alt="Edit Image">
+															</a>
+															&nbsp;&nbsp;&nbsp;
+															<img style="height:20px; cursor:pointer;" src="images/bin.png" onclick="deleteRow(this)" alt="Delete Image">
+														</td>
+													</tr>
+													<tr class="hove" data-id="1">
+														<td>BÍ QUYẾT CHỌN TÔNG MÀU THỜI TRANG PHÙ HỢP CHO TỪNG MÀU DA</td>
+														<td>Lai Trân</td>
+														<td class="center">14/12/2023</td>
+														<td class="center">
+															<a href="blog_single2_2.html">
+																<img style="height:22px; cursor:pointer;" src="images/sua.png" alt="Edit Image">
+															</a>
+															&nbsp;&nbsp;&nbsp;
+															<img style="height:20px; cursor:pointer;" src="images/bin.png" onclick="deleteRow(this)" alt="Delete Image">
+														</td>
+													</tr>
+													<tr class="hove" data-id="1">
+														<td>GỢI Ý QUÀ TẶNG TRONG NHỮNG DỊP ĐẶC BIỆT</td>
+														<td>Nguyễn Thảo</td>
+														<td class="center">14/11/2023</td>
+														<td class="center">
+															<a href="blog_single2_3.html">
+																<img style="height:22px; cursor:pointer;" src="images/sua.png" alt="Edit Image">
+															</a>
+															&nbsp;&nbsp;&nbsp;
+															<img style="height:20px; cursor:pointer;" src="images/bin.png" onclick="deleteRow(this)" alt="Delete Image">
+														</td>
+													</tr>
+													<tr class="hove" data-id="1">
+														<td>THỜI TRANG THU ĐÔNG 2023</td>
+														<td>Nguyễn Hân</td>
+														<td class="center">14/11/2023</td>
+														<td class="center">
+															<a href="blog_single2_4.html">
+																<img style="height:22px; cursor:pointer;" src="images/sua.png" alt="Edit Image">
+															</a>
+															&nbsp;&nbsp;&nbsp;
+															<img style="height:20px; cursor:pointer;" src="images/bin.png" onclick="deleteRow(this)" alt="Delete Image">
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+										
+									</div> <!-- end slider -->
+							
+								  </div> <!-- end featured -->
+								  </div> <!-- end new items -->
+							
+								</div>
+							
+								</div>
+							</section>
+							
+						</div><!--/.module-->
+
+					<br />
+						
+					</div><!--/.content-->
+				</div><!--/.span9-->
+			</div>
+		</div><!--/.container-->
+	</div><!--/.wrapper-->
+
+	<div class="footer">
+		<div class="container">
+            <b class="copyright">&copy; 2023 FiC - Nhóm 5 - Phát triển WEB kinh doanh </b>All rights reserved.
+		</div>
+	</div>
+	<script src="scripts/jquery-1.9.1.min.js" type="text/javascript"></script>
+	<script src="scripts/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>
+	<script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="scripts/flot/jquery.flot.js" type="text/javascript"></script>
+	<script src="scripts/flot/jquery.flot.resize.js" type="text/javascript"></script>
+	<script src="scripts/datatables/jquery.dataTables_promtion.js" type="text/javascript"></script>
+	<script src="scripts/common.js" type="text/javascript"></script>
+	
+	<script>
+		$(document).ready(function() {
+			$('.datatable-1').dataTable();
+			$('.dataTables_paginate').addClass("btn-group datatable-pagination");
+			$('.dataTables_paginate > a').wrapInner('<span />');
+			$('.dataTables_paginate > a:first-child').append('<i class="icon-chevron-left shaded"></i>');
+			$('.dataTables_paginate > a:last-child').append('<i class="icon-chevron-right shaded"></i>');
+		} );
+	</script>
+	
+  <script>
+	document.addEventListener('DOMContentLoaded', function() {
+  var deleteButtons = document.getElementsByClassName('deleteBtn');
+
+  for (var i = 0; i < deleteButtons.length; i++) {
+    var deleteButton = deleteButtons[i];
+
+    deleteButton.addEventListener('click', function() {
+      var row = this.parentNode.parentNode;
+      row.parentNode.removeChild(row);
+    });
+  }
+});
+  </script>
+	
+</body>
+</html>

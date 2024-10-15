@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FiC | Blog</title>
+        <link type="text/css" href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link type="text/css" href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+        <link type="text/css" href="css/theme.css" rel="stylesheet">
+        <link type="text/css" href="images/icons/css/font-awesome.css" rel="stylesheet">
+        <link type="text/css" href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600'
+            rel='stylesheet'>
+        <link rel="stylesheet" href="css/1.CSS"/>
+        <link rel="stylesheet" href="css/create_blog.css">
+    </head>
+    <body>
+        <div class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-inverse-collapse">
+                        <i class="icon-reorder shaded"></i></a><a class="brand" href="Tongquan.html"> <img src="images/LOGO FIC.png" alt="Logo" style="width: 27px; height: auto; margin-right: 5px;"> FiC </a>
+                        <ul class="nav pull-right">
+                            <li></li>
+                            <li></li>
+                            <li class="nav-user dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <img src="images/nekochan_avatar.JPG" class="nav-avatar" />
+                                <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Thông tin cá nhân</a></li>
+                                    <li><a href="doimatkhau.html">Đổi mật khẩu</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Đăng xuất</a></li>
+                                </ul>
+                            </li>
+                        </div>
+                    </div>
+                    <!-- /.nav-collapse -->
+                </div>
+            </div>
+            <!-- /navbar-inner -->
+        </div>
+        <!-- /navbar -->
+        <div class="wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="span3">
+                        <div class="sidebar">
+                            <ul class="widget widget-menu unstyled">
+                                <li class="active"><a href="Tongquan.html"><i class="menu-icon icon-dashboard"></i>Tổng quan</a></li>
+                                <li><a href="danhsachkhachhang.html"><i class="menu-icon icon-user"></i>Khách hàng</a></li>
+                                <li><a href="danhsachdonhang.html"><i class="menu-icon icon-shopping-cart"></i>Đơn hàng<b class="label green pull-right">11</b></a></li>
+                                <li><a href="Danhsachsanpham.html"><i class="menu-icon icon-tags"></i>Sản phẩm<b class="label orange pull-right">19</b> </a></li>
+                                <li><a href="Promotion_list.html"><i class="menu-icon icon-gift"></i>Khuyến mãi</a></li>
+                                <li><a href="Blog_list.html"><i class="menu-icon icon-book"></i>Blog</a></li>
+                            </ul>
+                            <!--/.widget-nav-->
+                            <ul class="widget widget-menu unstyled">
+                                <li><a class="collapsed" data-toggle="collapse" href="#togglePages"><i class="menu-icon icon-cog">
+                                </i><i class="icon-chevron-down pull-right"></i><i class="icon-chevron-up pull-right">
+                                </i>Cài đặt</a>
+                                    <ul id="togglePages" class="collapse unstyled">
+                                        <li><a href="Cauhinhchung.html"><i class="icon-home"></i>    Cấu hình chung</a></li>
+                                        <li><a href="nhanvien.html"><i class="icon-group"></i>    Nhân viên</a></li>
+                                        <li><a href="Vanchuyen.html"><i class="icon-truck"></i>    Vận chuyển</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#"><i class="menu-icon icon-globe"></i>Brower Website</a></li>
+                            </ul>
+                        </div>
+                        <!--/.sidebar-->
+				</div>
+
+
+    
+            
+            <div class="span9">
+                <div class="entry_blog">
+				<div class="content">
+                <div class="container_blog">
+                <h2>Thêm bài viết mới</h2>
+                <form>
+                <div class="form-group">
+                    <label for="blog_id"> <b> Tiêu đề</b></label>
+                    <input type="text" id="blog_id" name="blog_id" value="BÍ QUYẾT CHỌN TÔNG MÀU THỜI TRANG PHÙ HỢP CHO TỪNG MÀU DA"required>
+                </div>
+
+                <div class="form-group">
+                    <label for="image"><b>Hình ảnh</b></label>
+                    <label for="file-upload" id="file-upload-label" class="file-upload-label">
+                        Chọn hình ảnh
+                        <input type="file" id="file-upload" name="image" accept="image/*" onchange="previewImage(event)">
+                    </label>
+                    <div class="image-preview-container">
+                        <div id="preview"></div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="content"><b>Nội dung</b></label>
+                    <textarea id="content" name="content" rows="5" required>Để trở nên xinh đẹp và cuốn hút, ngoài việc giữ dáng, còn cần biết lựa chọn trang phục, màu sắc trang phục phù hợp với mình nhất. Đặc biệt, chọn màu sắc phù hợp sẽ giúp che đi khuyết điểm và tôn lên màu da, giúp trơ nên xinh đẹp và “tỏa sáng” hơn. Ở bài viết này, FiC sẽ chia sẻ với bạn cách chọn màu trang phục làm nổi bật màu da của mình nhé.
+Cách phân biệt tone da
+Để chọn lựa được màu sắc trang phục phù hợp, trước tiên bạn cần biết da mình thuộc tone nào. Có ba tone da, đó là: tông nóng/ấm, lạnh và trung tính. Dù phối đồ mùa đông hay xuân hè, thì màu trang phục phải phù hợp với tone da mới có thể tôn lên vẻ đẹp của bạn được.
+1. Xác định tone da bằng độ bắt nắng của da:
+Sau khi bạn đi nắng về, hãy thử soi gương mặt và làn da cơ thể và xác định tông da như sau: 
+Nếu da bạn ửng đỏ sau khi tiếp xúc với ánh nắng mặt trời, thì bạn đang sở hữu tone da lạnh.
+Nếu da rám nắng nhiều và sẫm hơn trước khi tiếp xúc với nắng, bạn có tone da ấm/ nóng.
+Nếu da bạn chỉ bị rám nắng chút ít và thỉnh thoảng lại ửng đỏ lên thì làn da này thuộc tone trung tính. 
+2. Xác định tone da qua màu mắt tự nhiên 
+Có một cách thường được các stylist áp dụng để xác định nhanh tone da của người mẫu, đó là nhận biết tone da qua màu mắt tự nhiên. Những ai có màu mắt đen hoặc nâu thường sẽ có tone da ấm. Nếu bạn có đôi mắt màu xanh da trời hay xám, khả năng cao bạn có tone da lạnh.
+3. Xem mạch ở cổ tay: 
+Cách xem mạch ở cổ tay giúp xác định màu sắc tone da chính xác nhất. Bạn hãy đưa cổ tay ra nắng và nhìn xem chúng màu gì nhé: 
+Nếu mạch máu cổ tay của bạn có màu xanh dương/ tím nghĩa là bạn có tone da lạnh. 
+Nếu mạch máu của bạn có màu xanh lá thì đó là da tone ấm/ nóng. 
+Nếu có cả hai màu như trên thì da bạn là trung tính. 
+Bí quyết chọn màu trang phục làm nổi bật màu da
+1. Đối với tone da ấm/ nóng
+Người có tone da ấm như da nâu, da sậm, da đen, da ngăm nên chọn trang phục có màu nóng để tương đồng và phù hợp với sắc da: 
+Các tone màu hồng đào, vàng, đỏ sẽ làm cho da bạn sáng hẳn lên và thu hút ánh nhìn. Nếu bạn không thích tông nóng thì có thể chọn màu sắc tông lạnh, nhưng phải có sự chọn lọc. Các màu tông lạnh như xanh olive, xanh ngọc lam, xanh rêu... sẽ phù hợp với người có tone da ấm/nóng hơn.
+Ngoài ra, bạn nên tránh phối đồ có màu sắc quá sậm như nâu, đen, xanh lá cây đậm vì chúng sẽ làm cho da bạn thêm xỉn màu và “cộng” thêm vài tuổi đấy.
+2. Đối với tone da lạnh. 
+Nếu bạn sở hữu một làn da trắng trẻo, hồng hào thì việc chọn trang phục có lẽ không khó khăn gì. Màu da này phù hợp với rất nhiều màu trang phục.
+Những màu sắc hòa vào màu da như màu nude hay pastel rất hợp với làn da trắng. Các sắc màu này tuy đơn giản thanh lịch nhưng sẽ tạo cho bạn vẻ ngoài cực quyến rũ.
+Ngoài ra, bạn cũng có thể thử nghiệm với các màu “chói chang” như vàng chanh, màu hồng neon, xanh lá, xanh cobalt...Chúng sẽ giúp bạn trở nên rạng rỡ tươi sáng hơn bao giờ hết.
+3. Đối với tone màu trung bình
+Đây là tone da khó chọn màu trang phục nhất, bởi nó không quá sáng cũng không quá sậm. Vì thế, việc cân chỉnh, lựa chọn trang phục sao cho nổi bật màu da cũng như làm tôn dáng luôn khiến chị em phải đau đầu.
+Nếu bạn có làn da vàng, nâu nhạt hay hơi ngăm thì nên phối trang phục kết hợp các gam màu đậm - nhạt và nóng lạnh nhằm làm cho người đối diện có cảm giác da bạn bớt vàng, bớt sẫm hơn. Bạn nên chọn màu be, màu vàng nhạt, màu xám, màu hồng nhạt hoặc màu xanh nhạt, không nên chọn màu quá đậm, đặc biệt là đỏ tươi hay xanh lá.
+Vậy là, qua những mẹo nhỏ bên trên, FiC đã mách bạn một vài cách giúp bạn lựa chọn màu trang phục phù hợp với màu da. Tuy vậy, chọn được màu trang phục phù hợp là một chuyện, bạn cũng cần biết bảo quản trang phục sao cho màu sắc luôn sáng đẹp như lúc mới mua nữa nhé.
+Chắc rằng sau khi xem qua bài viết bạn đã xác định được màu sắc phù hợp với màu da của mình rồi đúng không. Vậy thì hãy ghé ngay FiC để chọn được trang phục phù hợp với mình nhé. Hi vọng qua bài viết trên, có thể giúp các bạn dễ dàng lựa chọn màu trang phục làm nổi bật màu da và tự tin khoe dáng. FiC luôn vì vẻ đẹp của bạn!
+                    </textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="name"><b>Người viết</b></label>
+                    <input type="text" id="name" name="name" value="Lai Trân"required>
+                </div>
+
+                <div class="form-group">
+                    <label for="date"><b>Thời gian </b></label>
+                    <input type="date" id="date" name="date" value="2023-12-14"required>
+                </div>
+
+                <div class="button_group">
+                    <button class="button" type="submit" style="margin-left: 0px;"> Hủy</button>
+                    <button class="button" type="reser" style="margin-left: 0px;"> Tạo mới</button>
+                </div>
+        
+                </form>
+                </div>
+                </div> <!-- end featured -->
+                </div> <!-- end new items -->
+
+            </div>
+
+            </div>
+            </section>
+
+            </div><!--/.module-->
+
+            <br />
+
+            </div><!--/.content-->
+            </div><!--/.span9-->
+            </div>
+            </div><!--/.container-->
+            </div><!--/.wrapper-->
+
+                <div class="footer">
+                    <div class="container">
+                        <b class="copyright">&copy; 2023 FiC - Nhóm 5 - Phát triển WEB kinh doanh </b>All rights reserved.
+                    </div>
+                </div>
+            
+                <script type="text/javascript" src="js/jquery.min.js"></script>
+                <script type="text/javascript" src="js/bootstrap.min.js"></script>
+                
+                <script src="scripts/jquery-1.9.1.min.js" type="text/javascript"></script>
+                <script src="scripts/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>
+                <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+                <script src="scripts/flot/jquery.flot.js" type="text/javascript"></script>
+                <script src="scripts/flot/jquery.flot.resize.js" type="text/javascript"></script>
+                <script src="scripts/datatables/jquery.dataTables.js" type="text/javascript"></script>
+                <script src="scripts/common.js" type="text/javascript"></script>
+
+            </body>
+            </html>

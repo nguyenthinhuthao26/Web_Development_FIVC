@@ -1,0 +1,559 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FiC | Khách hàng</title>
+        <link type="text/css" href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link type="text/css" href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+        <link type="text/css" href="css/theme.css" rel="stylesheet">
+        <link type="text/css" href="images/icons/css/font-awesome.css" rel="stylesheet">
+        <link type="text/css" href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600'
+            rel='stylesheet'>
+    </head>
+	<body>
+        <div class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-inverse-collapse">
+                        <i class="icon-reorder shaded"></i></a><a class="brand" href="Tongquan.html"> <img src="images/LOGO FIC.png" alt="Logo" style="width: 27px; height: auto; margin-right: 5px;"> FiC </a>
+                        <ul class="nav pull-right">
+                            <li></li>
+                            <li></li>
+                            <li class="nav-user dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <img src="images/nekochan_avatar.JPG" class="nav-avatar" />
+                                <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Thông tin cá nhân</a></li>
+                                    <li><a href="doimatkhau.html">Đổi mật khẩu</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Đăng xuất</a></li>
+                                </ul>
+                            </li>
+                        </div>
+                    </div>
+                    <!-- /.nav-collapse -->
+                </div>
+            </div>
+            <!-- /navbar-inner -->
+        </div>
+        <!-- /navbar -->
+        <div class="wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="span3">
+                        <div class="sidebar">
+                            <ul class="widget widget-menu unstyled">
+                                <li class="active"><a href="Tongquan.html"><i class="menu-icon icon-dashboard"></i>Tổng quan</a></li>
+                                <li><a href="danhsachkhachhang.html"><i class="menu-icon icon-user"></i>Khách hàng</a></li>
+                                <li><a href="danhsachdonhang.html"><i class="menu-icon icon-shopping-cart"></i>Đơn hàng<b class="label green pull-right">11</b></a></li>
+                                <li><a href="Danhsachsanpham.html"><i class="menu-icon icon-tags"></i>Sản phẩm<b class="label orange pull-right">19</b> </a></li>
+                                <li><a href="Promotion_list.html"><i class="menu-icon icon-gift"></i>Khuyến mãi</a></li>
+                                <li><a href="Blog_list.html"><i class="menu-icon icon-book"></i>Blog</a></li>
+                            </ul>
+                            <!--/.widget-nav-->
+                            <ul class="widget widget-menu unstyled">
+                                <li><a class="collapsed" data-toggle="collapse" href="#togglePages"><i class="menu-icon icon-cog">
+                                </i><i class="icon-chevron-down pull-right"></i><i class="icon-chevron-up pull-right">
+                                </i>Cài đặt</a>
+                                    <ul id="togglePages" class="collapse unstyled">
+                                        <li><a href="Cauhinhchung.html"><i class="icon-home"></i>    Cấu hình chung</a></li>
+                                        <li><a href="nhanvien.html"><i class="icon-group"></i>    Nhân viên</a></li>
+                                        <li><a href="Vanchuyen.html"><i class="icon-truck"></i>    Vận chuyển</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#"><i class="menu-icon icon-globe"></i>Brower Website</a></li>
+                            </ul>
+                        </div>
+                        <!--/.sidebar-->
+				</div><!--/.span3-->
+
+
+				<div class="span9">
+					<div class="content">
+						
+						<div class="module">
+							
+							<div class="module-option clearfix">
+								<div class="pull-left">
+									<div>
+										<h2>Danh sách khách hàng</h2>
+									</div>
+								</div>
+								<div class="pull-right">
+									<a href="#" class="btn btn-primary">+ Tạo khách hàng</a>
+								</div>
+							</div><br>
+
+							<section class="section-wrap pt-0">
+								<div class="container-fluid">
+							
+								  <!-- Tabs -->
+								  <div class="text-center">
+									<div class="tabs p-tabs">
+									
+									  <ul class="nav nav-tabs">                                
+										<li class="active">
+										  <a href="#TCKH" data-toggle="tab"><h4>Tất cả khách hàng</h4></a>
+										</li>                                
+										<li>
+										  <a href="#KHTT" data-toggle="tab"><h4>Khách hàng thân thiết</h4></a>
+										</li>     
+										<li>
+											<a href="#KHTN" data-toggle="tab"><h4>Khách hàng tiềm năng</h4></a>
+										  </li>                           
+									  </ul>
+									</div>
+								  </div>
+							
+							
+								<!-- Tab Content -->
+								<div class="tab-content tabs-slider-content">
+							
+								  <!-- Tất cả khách hàng -->
+								  <div class="tab-pane fade in active" id="TCKH">
+							
+									<div class="owl-carousel owl-theme">
+							
+										<div class="module-body table tab-content">
+		
+											<table cellpadding="0" cellspacing="0" border="0" class="datatable-1 table table-bordered table-striped	 display" id="myTable1" width="100%">
+												<thead>
+													<tr>
+														<th>Khách hàng</th>
+														<th>Số điện thoại</th>
+														<th>Địa chỉ</th>
+														<th>Tỉnh/Thành phố</th>
+														<th>Tổng đơn hàng</th>
+														<th>Tổng giá trị</th>
+														<th>Tổng thao tác</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr class="hove" data-id="1">
+														<td>Nguyễn Chi</td>
+														<td>0353599451</td>
+														<td>Quận 9</td>
+														<td class="center">Thành phố hồ chí minh</td>
+														<td class="center">1</td>
+														<td class="center">100.000</td>
+														<td class="center"><img style='height:22px' src="images/sua.png">&nbsp;&nbsp;&nbsp;<img style='height:20px' src='images/bin.png' id="deleteBtn"></td>
+													</tr>
+													<tr class="hove" data-id="2">
+														<td>Hoàng Giang</td>
+														<td>0355429451</td>
+														<td>Quận 9</td>
+														<td class="center">Thành phố hồ chí minh</td>
+														<td class="center">2</td>
+														<td class="center">200.000</td>
+														<td class="center"><img style='height:22px' src="images/sua.png">&nbsp;&nbsp;&nbsp;<img style='height:20px' src='images/bin.png'></td>
+													</tr>
+													<tr class="hove" data-id="3">
+														<td>Nguyễn Thảo</td>
+														<td>0353599854</td>
+														<td>Quận 9</td>
+														<td class="center">Thành phố hồ chí minh</td>
+														<td class="center">3</td>
+														<td class="center">400.000</td>
+														<td class="center"><img style='height:22px' src="images/sua.png">&nbsp;&nbsp;&nbsp;<img style='height:20px' src='images/bin.png'></td>
+													</tr>
+													<tr class="hove" data-id="4">
+														<td>Nguyễn Hân</td>
+														<td>0895599451</td>
+														<td>Quận 9</td>
+														<td class="center">Thành phố hồ chí minh</td>
+														<td class="center">2</td>
+														<td class="center">250.000</td>
+														<td class="center"><img style='height:22px' src="images/sua.png">&nbsp;&nbsp;&nbsp;<img style='height:20px' src='images/bin.png'></td>
+													</tr>
+													<tr class="hove" data-id="5">
+														<td>Lai Trân</td>
+														<td>0853599451</td>
+														<td>Quận 9</td>
+														<td class="center">Thành phố hồ chí minh</td>
+														<td class="center">1</td>
+														<td class="center">100.000</td>
+														<td class="center"><img style='height:22px' src="images/sua.png">&nbsp;&nbsp;&nbsp;<img style='height:20px' src='images/bin.png'></td>
+
+													</tr>
+													<tr class="hove" data-id="6">
+														<td>Nguyễn An</td>
+														<td>0358499451</td>
+														<td>Quận 7</td>
+														<td class="center">Thành phố hồ chí minh</td>
+														<td class="center">1</td>
+														<td class="center">100.000</td>
+														<td class="center"><img style='height:22px' src="images/sua.png">&nbsp;&nbsp;&nbsp;<img style='height:20px' src='images/bin.png'></td>
+													</tr>
+													<tr class="hove" data-id="7">
+														<td>Lai Chi</td>
+														<td>0743599451</td>
+														<td>Quận 3</td>
+														<td class="center">Thành phố hồ chí minh</td>
+														<td class="center">3</td>
+														<td class="center">300.000</td>
+														<td class="center"><img style='height:22px' src="images/sua.png">&nbsp;&nbsp;&nbsp;<img style='height:20px' src='images/bin.png'></td>
+													</tr>
+													<tr class="hove" data-id="8">
+														<td>Châu Thị</td>
+														<td>03533242451</td>
+														<td>Quận 1</td>
+														<td class="center">Thành phố hồ chí minh</td>
+														<td class="center">3</td>
+														<td class="center">500.000</td>
+														<td class="center"><img style='height:22px' src="images/sua.png">&nbsp;&nbsp;&nbsp;<img style='height:20px' src='images/bin.png'></td>
+													</tr>
+													<tr class="hove" data-id="9">
+														<td>Trần An</td>
+														<td>0312329451</td>
+														<td>Quận 4</td>
+														<td class="center">Thành phố hồ chí minh</td>
+														<td class="center">2</td>
+														<td class="center">500.000</td>
+														<td class="center"><img style='height:22px' src="images/sua.png">&nbsp;&nbsp;&nbsp;<img style='height:20px' src='images/bin.png'></td>
+													</tr>
+													<tr class="hove" data-id="10">
+														<td>Nguyễn Như</td>
+														<td>0353595874</td>
+														<td>Quận 9</td>
+														<td class="center">Thành phố hồ chí minh</td>
+														<td class="center">4</td>
+														<td class="center">800.000</td>
+														<td class="center"><img style='height:22px' src="images/sua.png">&nbsp;&nbsp;&nbsp;<img style='height:20px' src='images/bin.png'></td>
+													</tr>
+													<tr class="hove" data-id="11">
+														<td>Hoàng Thị</td>
+														<td>0898759451</td>
+														<td>Quận 2</td>
+														<td class="center">Thành phố hồ chí minh</td>
+														<td class="center">2</td>
+														<td class="center">250.000</td>
+														<td class="center"><img style='height:22px' src="images/sua.png">&nbsp;&nbsp;&nbsp;<img style='height:20px' src='images/bin.png'></td>
+													</tr>
+													<tr class="hove" data-id="12">
+														<td>Lê Mỹ Kiều</td>
+														<td>0853599451</td>
+														<td>Quận 1</td>
+														<td class="center">Thành phố hồ chí minh</td>
+														<td class="center">3</td>
+														<td class="center">500.000</td>
+														<td class="center"><img style='height:22px' src="images/sua.png">&nbsp;&nbsp;&nbsp;<img style='height:20px' src='images/bin.png'></td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+										
+									</div> <!-- end slider -->
+							
+								  </div> <!-- end featured -->
+							
+								  <!-- Khách hàng thân thiết -->
+								  <div class="tab-pane fade in" id="KHTT">
+							
+									<div class="owl-carousel owl-theme">
+							
+										<div class="module-body table">
+		
+											<table cellpadding="0" cellspacing="0" border="0" class="datatable-1 table table-bordered table-striped	 display" id="myTable2" width="100%">
+												<thead>
+													<tr>
+														<th>Khách hàng</th>
+														<th>Số điện thoại</th>
+														<th>Địa chỉ</th>
+														<th>Tỉnh/Thành phố</th>
+														<th>Tổng đơn hàng</th>
+														<th>Tổng giá trị</th>
+														<th>Tổng thao tác</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr class="hove" data-id="3">
+														<td>Nguyễn Thảo</td>
+														<td>0353599854</td>
+														<td>Quận 9</td>
+														<td class="center">Thành phố hồ chí minh</td>
+														<td class="center">3</td>
+														<td class="center">400.000</td>
+														<td class="center"><img style='height:22px' src="images/sua.png">&nbsp;&nbsp;&nbsp;<img style='height:20px' src='images/bin.png'></td>
+													</tr>
+													<tr class="hove" data-id="7">
+														<td>Lai Chi</td>
+														<td>0743599451</td>
+														<td>Quận 3</td>
+														<td class="center">Thành phố hồ chí minh</td>
+														<td class="center">3</td>
+														<td class="center">300.000</td>
+														<td class="center"><img style='height:22px' src="images/sua.png">&nbsp;&nbsp;&nbsp;<img style='height:20px' src='images/bin.png'></td>
+													</tr>
+													<tr class="hove" data-id="8">
+														<td>Châu Thị</td>
+														<td>03533242451</td>
+														<td>Quận 1</td>
+														<td class="center">Thành phố hồ chí minh</td>
+														<td class="center">3</td>
+														<td class="center">500.000</td>
+														<td class="center"><img style='height:22px' src="images/sua.png">&nbsp;&nbsp;&nbsp;<img style='height:20px' src='images/bin.png'></td>
+													</tr>
+													<tr class="hove" data-id="10">
+														<td>Nguyễn Như</td>
+														<td>0353595874</td>
+														<td>Quận 9</td>
+														<td class="center">Thành phố hồ chí minh</td>
+														<td class="center">4</td>
+														<td class="center">800.000</td>
+														<td class="center"><img style='height:22px' src="images/sua.png">&nbsp;&nbsp;&nbsp;<img style='height:20px' src='images/bin.png'></td>
+													</tr>
+													<tr class="hove" data-id="12">
+														<td>Lê Mỹ Kiều</td>
+														<td>0853599451</td>
+														<td>Quận 1</td>
+														<td class="center">Thành phố hồ chí minh</td>
+														<td class="center">3</td>
+														<td class="center">500.000</td>
+														<td class="center"><img style='height:22px' src="images/sua.png">&nbsp;&nbsp;&nbsp;<img style='height:20px' src='images/bin.png'></td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+										
+									</div> <!-- end slider -->
+							
+								  </div> 
+
+								  <!-- Khách hàng tiềm năng -->
+								  <div class="tab-pane fade in" id="KHTN">
+							
+									<div class="owl-carousel owl-theme">
+							
+										<div class="module-body table">
+		
+											<table cellpadding="0" cellspacing="0" border="0" class="datatable-1 table table-bordered table-striped	 display" id="myTable3" width="100%">
+												<thead>
+													<tr>
+														<th>Khách hàng</th>
+														<th>Số điện thoại</th>
+														<th>Địa chỉ</th>
+														<th>Tỉnh/Thành phố</th>
+														<th>Tổng đơn hàng</th>
+														<th>Tổng giá trị</th>
+														<th>Tổng thao tác</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr class="hove" data-id="1">
+														<td>Nguyễn Chi</td>
+														<td>0353599451</td>
+														<td>Quận 9</td>
+														<td class="center">Thành phố hồ chí minh</td>
+														<td class="center">1</td>
+														<td class="center">100.000</td>
+														<td class="center"><img style='height:22px' src="images/sua.png">&nbsp;&nbsp;&nbsp;<img style='height:20px' src='images/bin.png'></td>
+													</tr>
+													<tr class="hove" data-id="2">
+														<td>Hoàng Giang</td>
+														<td>0355429451</td>
+														<td>Quận 9</td>
+														<td class="center">Thành phố hồ chí minh</td>
+														<td class="center">2</td>
+														<td class="center">200.000</td>
+														<td class="center"><img style='height:22px' src="images/sua.png">&nbsp;&nbsp;&nbsp;<img style='height:20px' src='images/bin.png'></td>
+													</tr>
+													<tr class="hove" data-id="4">
+														<td>Nguyễn Hân</td>
+														<td>0895599451</td>
+														<td>Quận 9</td>
+														<td class="center">Thành phố hồ chí minh</td>
+														<td class="center">2</td>
+														<td class="center">250.000</td>
+														<td class="center"><img style='height:22px' src="images/sua.png">&nbsp;&nbsp;&nbsp;<img style='height:20px' src='images/bin.png'></td>
+													</tr>
+													<tr class="hove" data-id="5">
+														<td>Lai Trân</td>
+														<td>0853599451</td>
+														<td>Quận 9</td>
+														<td class="center">Thành phố hồ chí minh</td>
+														<td class="center">1</td>
+														<td class="center">100.000</td>
+														<td class="center"><img style='height:22px' src="images/sua.png">&nbsp;&nbsp;&nbsp;<img style='height:20px' src='images/bin.png'></td>
+
+													</tr>
+													<tr class="hove" data-id="6">
+														<td>Nguyễn An</td>
+														<td>0358499451</td>
+														<td>Quận 7</td>
+														<td class="center">Thành phố hồ chí minh</td>
+														<td class="center">1</td>
+														<td class="center">100.000</td>
+														<td class="center"><img style='height:22px' src="images/sua.png">&nbsp;&nbsp;&nbsp;<img style='height:20px' src='images/bin.png'></td>
+													</tr>
+													<tr class="hove" data-id="9">
+														<td>Trần An</td>
+														<td>0312329451</td>
+														<td>Quận 4</td>
+														<td class="center">Thành phố hồ chí minh</td>
+														<td class="center">2</td>
+														<td class="center">500.000</td>
+														<td class="center"><img style='height:22px' src="images/sua.png">&nbsp;&nbsp;&nbsp;<img style='height:20px' src='images/bin.png'></td>
+													</tr>
+													<tr class="hove" data-id="11">
+														<td>Hoàng Thị</td>
+														<td>0898759451</td>
+														<td>Quận 2</td>
+														<td class="center">Thành phố hồ chí minh</td>
+														<td class="center">2</td>
+														<td class="center">250.000</td>
+														<td class="center"><img style='height:22px' src="images/sua.png">&nbsp;&nbsp;&nbsp;<img style='height:20px' src='images/bin.png'></td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+										
+									</div> <!-- end slider -->
+							
+								  </div> <!-- end new items -->
+							
+								</div>
+							
+								</div>
+							</section>
+							
+						</div><!--/.module-->
+
+					<br />
+						
+					</div><!--/.content-->
+				</div><!--/.span9-->
+			</div>
+		</div><!--/.container-->
+	</div><!--/.wrapper-->
+
+	<div class="footer">
+		<div class="container">
+			 
+
+            <b class="copyright">&copy; 2023 FiC - Nhóm 5 - Phát triển WEB kinh doanh </b>All rights reserved.
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	
+	<script src="scripts/jquery-1.9.1.min.js" type="text/javascript"></script>
+	<script src="scripts/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>
+	<script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="scripts/flot/jquery.flot.js" type="text/javascript"></script>
+	<script src="scripts/flot/jquery.flot.resize.js" type="text/javascript"></script>
+	<script src="scripts/datatables/jquery.dataTables.js" type="text/javascript"></script>
+	<script src="scripts/common.js" type="text/javascript"></script>
+
+	<script>
+		$(document).ready(function() {
+			$('.datatable-1').dataTable();
+			$('.dataTables_paginate').addClass("btn-group datatable-pagination");
+			$('.dataTables_paginate > a').wrapInner('<span />');
+			$('.dataTables_paginate > a:first-child').append('<i class="icon-chevron-left shaded"></i>');
+			$('.dataTables_paginate > a:last-child').append('<i class="icon-chevron-right shaded"></i>');
+		} );
+	</script>
+	<script>
+		document.addEventListener('DOMContentLoaded', function() {
+		var table = document.getElementById('myTable1');
+		var rows = table.getElementsByTagName('tr');
+		var data = {
+			1: 'khachhang1.html',
+			2: 'khachhang2.html',
+			3: 'khachhang3.html',
+			4: 'khachhang4.html',
+			5: 'khachhang5.html',
+			6: 'khachhang6.html',
+			7: 'khachhang7.html',
+			8: 'khachhang8.html',
+			9: 'khachhang9.html',
+			10: 'khachhang10.html',
+			11: 'khachhang11.html',
+			12: 'khachhang12.html',
+			// Thêm các đường dẫn và dòng khác vào đây
+		};
+
+		
+		for (var i = 0; i < rows.length; i++) {
+			rows[i].addEventListener('click', function() {
+			var rowId = +this.getAttribute('data-id');
+			var url = data[rowId];
+			if (url) {
+				window.location.href = url;
+			}
+			});
+		}
+		});
+	  </script>
+
+<script>
+	document.addEventListener('DOMContentLoaded', function() {
+	var table = document.getElementById('myTable2');
+	var rows = table.getElementsByTagName('tr');
+	var data = {
+			3: 'khachhang3.html',
+			7: 'khachhang7.html',
+			8: 'khachhang8.html',
+			10: 'khachhang10.html',
+			12: 'khachhang12.html',
+		
+		// Thêm các đường dẫn và dòng khác vào đây
+	};
+
+	for (var i = 0; i < rows.length; i++) {
+		rows[i].addEventListener('click', function() {
+		var rowId = +this.getAttribute('data-id');
+		var url = data[rowId];
+		if (url) {
+			window.location.href = url;
+		}
+		});
+	}
+	});
+  </script>
+
+<script>
+	document.addEventListener('DOMContentLoaded', function() {
+	var table = document.getElementById('myTable3');
+	var rows = table.getElementsByTagName('tr');
+	var data = {
+			1: 'khachhang1.html',
+			2: 'khachhang2.html',
+			4: 'khachhang4.html',
+			5: 'khachhang5.html',
+			6: 'khachhang6.html',
+			9: 'khachhang9.html',
+			11: 'khachhang11.html',
+		// Thêm các đường dẫn và dòng khác vào đây
+	};
+
+	for (var i = 0; i < rows.length; i++) {
+		rows[i].addEventListener('click', function() {
+		var rowId = +this.getAttribute('data-id');
+		var url = data[rowId];
+		if (url) {
+			window.location.href = url;
+		}
+		});
+	}
+	});
+  </script>
+  <script>
+	document.addEventListener('DOMContentLoaded', function() {
+  var deleteButtons = document.getElementsByClassName('deleteBtn');
+
+  for (var i = 0; i < deleteButtons.length; i++) {
+    var deleteButton = deleteButtons[i];
+
+    deleteButton.addEventListener('click', function() {
+      var row = this.parentNode.parentNode;
+      row.parentNode.removeChild(row);
+    });
+  }
+});
+  </script>
+</body>
+</html>

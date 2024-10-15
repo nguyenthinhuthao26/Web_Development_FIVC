@@ -1,0 +1,88 @@
+.entry_promotion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 2px solid black;
+  width: 600px; 
+  margin: 0 auto;
+}
+.container_promotion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  form {
+      width: 800px;
+  }
+  h2 {
+    text-align: center;
+    background-color: #E8E8E8;
+    color: black;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .form-group {
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  label {
+    width: 250px;
+    text-align: right;
+    margin-right: 10px;
+  }
+
+  input[type="text"], 
+  input[type="password"],
+  select {
+    width: 400px;
+  }
+  p   {
+      font-weight: bold;
+      font-style: italic;
+      margin-bottom: 10px;
+     
+  }
+  input:required::after {
+    content: "*";
+    color: red;
+  }
+.button{
+    width: 100px;
+    margin-right: 20px;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.button_group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hinhanh{
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  margin: 5px;
+}
+
+.delete-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}

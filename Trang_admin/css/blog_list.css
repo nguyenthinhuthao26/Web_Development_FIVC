@@ -1,0 +1,31 @@
+
+.p-tabs {
+	display: inline-block;
+	padding: 0px;
+	position: relative; }
+	.p-tabs .nav.nav-tabs > li.active:before {
+		display: none; }
+
+.p-tabs .nav.nav-tabs {
+	border: none;
+	padding: 0px; }
+
+.p-tabs .nav.nav-tabs > li.active > a {
+	border-bottom: 2px solid #b79d82;
+	background-color: transparent;
+	padding: 0px;
+	color: #000; }
+
+.p-tabs .nav.nav-tabs > li > a {
+	padding: 0px;
+	border: none;
+	background-color: transparent;
+	color: #7f7f7f;
+	font-size: 18px;
+	font-weight: 400; }
+	.p-tabs .nav.nav-tabs > li > a:hover {
+		color: #000; }
+
+.p-tabs .nav.nav-tabs > li {
+	margin: 0 120px 10px 12px; }
+

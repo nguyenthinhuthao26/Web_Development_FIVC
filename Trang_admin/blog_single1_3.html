@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FiC | Blog</title>
+        <link type="text/css" href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link type="text/css" href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+        <link type="text/css" href="css/theme.css" rel="stylesheet">
+        <link type="text/css" href="images/icons/css/font-awesome.css" rel="stylesheet">
+        <link type="text/css" href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600'
+            rel='stylesheet'>
+        <link rel="stylesheet" href="css/1.CSS"/>
+        <link rel="stylesheet" href="css/create_blog.css">
+    </head>
+    <body>
+        <div class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-inverse-collapse">
+                        <i class="icon-reorder shaded"></i></a><a class="brand" href="Tongquan.html"> <img src="images/LOGO FIC.png" alt="Logo" style="width: 27px; height: auto; margin-right: 5px;"> FiC </a>
+                        <ul class="nav pull-right">
+                            <li></li>
+                            <li></li>
+                            <li class="nav-user dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <img src="images/nekochan_avatar.JPG" class="nav-avatar" />
+                                <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Thông tin cá nhân</a></li>
+                                    <li><a href="doimatkhau.html">Đổi mật khẩu</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Đăng xuất</a></li>
+                                </ul>
+                            </li>
+                        </div>
+                    </div>
+                    <!-- /.nav-collapse -->
+                </div>
+            </div>
+            <!-- /navbar-inner -->
+        </div>
+        <!-- /navbar -->
+        <div class="wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="span3">
+                        <div class="sidebar">
+                            <ul class="widget widget-menu unstyled">
+                                <li class="active"><a href="Tongquan.html"><i class="menu-icon icon-dashboard"></i>Tổng quan</a></li>
+                                <li><a href="danhsachkhachhang.html"><i class="menu-icon icon-user"></i>Khách hàng</a></li>
+                                <li><a href="danhsachdonhang.html"><i class="menu-icon icon-shopping-cart"></i>Đơn hàng<b class="label green pull-right">11</b></a></li>
+                                <li><a href="Danhsachsanpham.html"><i class="menu-icon icon-tags"></i>Sản phẩm<b class="label orange pull-right">19</b> </a></li>
+                                <li><a href="Promotion_list.html"><i class="menu-icon icon-gift"></i>Khuyến mãi</a></li>
+                                <li><a href="Blog_list.html"><i class="menu-icon icon-book"></i>Blog</a></li>
+                            </ul>
+                            <!--/.widget-nav-->
+                            <ul class="widget widget-menu unstyled">
+                                <li><a class="collapsed" data-toggle="collapse" href="#togglePages"><i class="menu-icon icon-cog">
+                                </i><i class="icon-chevron-down pull-right"></i><i class="icon-chevron-up pull-right">
+                                </i>Cài đặt</a>
+                                    <ul id="togglePages" class="collapse unstyled">
+                                        <li><a href="Cauhinhchung.html"><i class="icon-home"></i>    Cấu hình chung</a></li>
+                                        <li><a href="nhanvien.html"><i class="icon-group"></i>    Nhân viên</a></li>
+                                        <li><a href="Vanchuyen.html"><i class="icon-truck"></i>    Vận chuyển</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#"><i class="menu-icon icon-globe"></i>Brower Website</a></li>
+                            </ul>
+                        </div>
+                        <!--/.sidebar-->
+				</div>
+
+
+    
+            
+            <div class="span9">
+                <div class="entry_blog">
+				<div class="content">
+                <div class="container_blog">
+                <h2>Thêm bài viết mới</h2>
+                <form>
+                <div class="form-group">
+                    <label for="blog_id"> <b> Tiêu đề</b></label>
+                    <input type="text" id="blog_id" name="blog_id" value="Những sản phẩm mới đáng thử của FiC"required>
+                </div>
+
+                <div class="form-group">
+                    <label for="image"><b>Hình ảnh</b></label>
+                    <label for="file-upload" id="file-upload-label" class="file-upload-label">
+                        Chọn hình ảnh
+                        <input type="file" id="file-upload" name="image" accept="image/*" onchange="previewImage(event)">
+                    </label>
+                    <div class="image-preview-container">
+                        <div id="preview"><img src="images/blog/anh_1.1.jpg"/></div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="content"><b>Nội dung</b></label>
+                    <textarea id="content" name="content" rows="5" required>Chào mừng độc giả yêu thời trang đến với blog của chúng tôi! Hôm nay, chúng ta sẽ cùng nhau đắm chìm trong thế giới của những bộ sưu tập áo mới nhất từ FiC đang làm nên trend trong làng thời trang hiện đại. Những sản phẩm mới này không chỉ đem đến những xu hướng mới mẻ mà còn làm phong phú thêm bức tranh thời trang thế giới. Hãy cùng nhau khám phá và thử nghiệm những điều tuyệt vời từ thế giới thời trang đang diễn ra ngay trước mắt chúng ta!
+Áo khoác da                        
+Áo khoác da là sự chọn lựa xuất sắc với vẻ ngoại hình bền bỉ và phong cách lịch lãm. Chất liệu da chống nước, giữ ấm, và phối hợp dễ dàng với nhiều trang phục. Đây không chỉ là chiếc áo mùa đông đa năng mà còn là biểu tượng thời trang linh hoạt cho mọi dịp. Với tính ứng dụng linh hoạt, áo khoác da trở thành lựa chọn hoàn hảo cho phong cách thời trang đa dạng.
+Áo hoodie
+Áo hoodie là một lựa chọn thời trang thoải mái và phổ biến. Với thiết kế đơn giản, cổ áo dạng hoodie và túi kangaroo, áo hoodie không chỉ mang lại sự ấm áp mà còn tạo điểm nhấn phong cách. Phổ biến trong thời trang streetwear, áo hoodie thường được ưa chuộng với các họa tiết và logo độc đáo, tạo nên phong cách cá nhân và thoải mái cho mọi dịp.
+Áo thun tay ngắn
+Áo thun là trang phục linh hoạt và phổ biến, phản ánh sự đơn giản và thoải mái trong thời trang hàng ngày. Với nhiều chất liệu như cotton, thoáng khí và dễ chăm sóc, áo thun là sự lựa chọn phổ biến cho cả nam và nữ. Khả năng phối hợp dễ dàng, từ trang phục casual đến phong cách sporty, áo thun trở thành một trang phục không thể thiếu trong tủ đồ của mọi người.
+Áo thun tay dài
+Áo thun tay dài là sự kết hợp hoàn hảo giữa thoải mái và phong cách. Với tay dài, áo thun trở nên linh hoạt hơn, phù hợp cho cả mùa thu và mùa đông. Thiết kế này không chỉ giữ ấm mà còn tạo ra vẻ ngoại hình lịch lãm. Áo thun tay dài thường được ưa chuộng với nhiều chất liệu như cotton, jersey, hoặc blend, mang lại sự thoải mái và phong cách cho người mặc.
+Áo len cổ lọ
+Áo len cổ lọ là sự kết hợp hoàn hảo giữa ấm áp và phong cách. Với cổ lọ, áo len không chỉ giữ ấm cho vùng cổ mà còn tạo nên vẻ thanh lịch và sang trọng. Thiết kế này thường được ưa chuộng trong mùa đông, khi áo len cổ lọ không chỉ là sự bảo vệ mà còn là điểm nhấn thời trang. Áo len cổ lọ thường được làm từ len tự nhiên như len dê, len cừu, mang lại sự ấm áp và thoải mái cho người mặc.
+                    </textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="name"><b>Người viết</b></label>
+                    <input type="text" id="name" name="name" value="Hoàng Thanh Giang"required>
+                </div>
+
+                <div class="form-group">
+                    <label for="date"><b>Thời gian </b></label>
+                    <input type="date" id="date" name="date" value="2023-12-14"required>
+                </div>
+
+                <div class="button_group">
+                    <button class="button" type="submit" style="margin-left: 0px;"> Hủy</button>
+                    <button class="button" type="reser" style="margin-left: 0px;"> Tạo mới</button>
+                </div>
+        
+                </form>
+                </div>
+                </div> <!-- end featured -->
+                </div> <!-- end new items -->
+
+            </div>
+
+            </div>
+            </section>
+
+            </div><!--/.module-->
+
+            <br />
+
+            </div><!--/.content-->
+            </div><!--/.span9-->
+            </div>
+            </div><!--/.container-->
+            </div><!--/.wrapper-->
+
+                <div class="footer">
+                    <div class="container">
+                        <b class="copyright">&copy; 2023 FiC - Nhóm 5 - Phát triển WEB kinh doanh </b>All rights reserved.
+                    </div>
+                </div>
+            
+                <script type="text/javascript" src="js/jquery.min.js"></script>
+                <script type="text/javascript" src="js/bootstrap.min.js"></script>
+                
+                <script src="scripts/jquery-1.9.1.min.js" type="text/javascript"></script>
+                <script src="scripts/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>
+                <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+                <script src="scripts/flot/jquery.flot.js" type="text/javascript"></script>
+                <script src="scripts/flot/jquery.flot.resize.js" type="text/javascript"></script>
+                <script src="scripts/datatables/jquery.dataTables.js" type="text/javascript"></script>
+                <script src="scripts/common.js" type="text/javascript"></script>
+
+            </body>
+            </html>
